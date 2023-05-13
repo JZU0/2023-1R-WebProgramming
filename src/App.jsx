@@ -1,10 +1,12 @@
+import React from "react";
 import ApiButton from "./@components/ApiButton";
+import Worldcup from "./@components/Worldcup";
 
 function App() {
   return (
-    <>
-      <ApiButton />
-    </>
+    <React.StrictMode>
+      <Worldcup />
+    </React.StrictMode>
   );
 }
 

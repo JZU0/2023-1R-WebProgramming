@@ -1,0 +1,42 @@
+p {
+  text-align: center;
+}
+img {
+  width: 400px;
+}
+.container {
+  margin: auto;
+  display: flex;
+  position: relative;
+  flex-direction: "row";
+  width: 800px;
+  justify-content: center;
+}
+.title {
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 1;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+}
+.imgWrapper {
+  position: relative;
+}
+.imgWrapper div {
+  position: absolute;
+  right: 40%;
+  top: 60%;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+  font-size: 15px;
+}
+.select {
+  display: none;
+}
