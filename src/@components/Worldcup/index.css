@@ -40,3 +40,46 @@ img {
 .select {
   display: none;
 }
+.statistics {
+  width: 30%;
+  justify-content: center;
+  margin: auto;
+}
+.backgroundBar {
+  color: #fff;
+  font-size: 11px;
+  line-height: 25px;
+  height: 25px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.barText {
+  background-color: #ffc600;
+  position: relative;
+  padding-left: 25px;
+  border-radius: 2px;
+}
+.barValue {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 25px;
+  padding: 0 5px 0 7px;
+  background-color: #1a1a1a;
+  border-radius: 0 2px 2px 0;
+}
+
+.barValue:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 50%;
+  left: -3px;
+  margin-top: -3px;
+  background-color: #1a1a1a;
+  transform: rotate(45deg);
+}
